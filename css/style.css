@@ -6,6 +6,7 @@
 
 body {
     height: 100vh;
+    background-color: rgb(230, 160, 0);
     display: grid;
     grid-template-columns: 50px 1fr;
     grid-template-rows: 100px 1fr 200px;
@@ -17,7 +18,10 @@ body {
 
 header {
     grid-area: hea;
-    background: pink;
+    background-color: rgb(230, 126, 34);
+    margin: 0px 20px 0px 20px;
+    border-radius: 0px 0px 10px 10px;
+    filter: drop-shadow(2px 2px 3px);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
@@ -36,7 +40,6 @@ header nav {
     grid-area: nav;
     display: flex;
     justify-content: center;
-    background: green;
 }
 
 main {
@@ -46,19 +49,28 @@ main {
     grid-template-rows: 1fr;
     grid-template-areas:
     "pa1 pa2";
-    background: red;
 }
 
 #index_pic {
-    background: yellowgreen;
     grid-area: pa1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(230, 126, 34);
+    filter: drop-shadow(2px 2px 3px);
 }
 
 main nav {
     grid-area: pa1;
     display: flex;
     justify-content: center;
-    background: yellowgreen;
+    margin: 20px 0px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(230, 126, 34);
+    filter: drop-shadow(2px 2px 3px);
 }
 
 main nav ol li {
@@ -77,21 +89,33 @@ main nav ol li {
 }
 
 #index_info {
-    min-height: 200px;
     grid-area: se1;
-    background: gray;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 200px;
+    background: rgb(230, 126, 34);
+    filter: drop-shadow(2px 2px 3px);
 }
 
 #index_recomended {
-    min-height: 200px;
     grid-area: se2;
-    background: purple;
+    margin: 0px 20px 0px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 200px;
+    background: rgb(230, 126, 34);
+    filter: drop-shadow(2px 2px 3px);
 }
 
 #index_calender {
-    min-height: 200px;
     grid-area: se3;
-    background: blue;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 200px;
+    background: rgb(230, 126, 34);
+    filter: drop-shadow(2px 2px 3px);
 }
 
 #food_section {
@@ -100,17 +124,23 @@ main nav ol li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: grey;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(230, 126, 34);
+    filter: drop-shadow(2px 2px 3px);
 }
 
 .food_cards {
-    background: pink;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
     "ca1 ca2 ca3"
     "ca4 ca5 ca6";
+    margin: 20px 0px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(220, 116, 24);
 }
 
 .food_card {
@@ -122,6 +152,7 @@ main nav ol li {
     margin-bottom: 20px;
     width: 250px;
     height: 200px;
+    border-radius: 10px;
     background: lightcoral;
 }
 
@@ -129,6 +160,8 @@ main nav ol li {
     position: relative;
     width: 100vh;
     height: min-content;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
     background: rgba(255, 255, 255, 0.5);
 }
 
@@ -145,7 +178,10 @@ main nav ol li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: pink;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(230, 126, 34);
+    filter: drop-shadow(2px 2px 3px);
 }
 
 .resturant_card {
@@ -154,7 +190,8 @@ main nav ol li {
     height: 100px;
     display: flex;
     justify-content: space-between;
-    background: red;
+    border-radius: 10px;
+    background: lightcoral;
 }
 
 
@@ -167,7 +204,11 @@ main nav ol li {
 
 footer {
     grid-area: foo;
-    background: yellow;
+    margin: 0px 20px 0px 20px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(230, 126, 34);
+    filter: drop-shadow(2px 2px 3px);
 }
 
 
@@ -202,5 +243,4 @@ ol {
     width: 50vw;
     justify-content: space-around;
     align-items: center;
-    background: wheat;
 }
