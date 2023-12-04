@@ -21,7 +21,7 @@ header {
     background-color: rgb(230, 126, 34);
     margin: 0px 20px 0px 20px;
     border-radius: 0px 0px 10px 10px;
-    filter: drop-shadow(2px 2px 3px);
+    filter: drop-shadow(2px 2px 3px rgb(124, 58, 1));
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
@@ -60,7 +60,7 @@ main {
     margin: 20px 0px 20px 20px;
     border-radius: 10px 10px 10px 10px;
     background-color: rgb(230, 126, 34);
-    filter: drop-shadow(2px 2px 3px);
+    filter: drop-shadow(2px 2px 3px rgb(124, 58, 1));
 }
 
 main nav {
@@ -70,7 +70,7 @@ main nav {
     margin: 20px 0px 20px 20px;
     border-radius: 10px 10px 10px 10px;
     background-color: rgb(230, 126, 34);
-    filter: drop-shadow(2px 2px 3px);
+    filter: drop-shadow(2px 2px 3px rgb(124, 58, 1));
 }
 
 main nav ol li {
@@ -88,34 +88,51 @@ main nav ol li {
     "se3";
 }
 
+#index_section section section {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#index_section section section p {
+    text-align: center;
+}
+
 #index_info {
     grid-area: se1;
+    display: flex;
+    justify-content: center;
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
     min-height: 200px;
     background: rgb(230, 126, 34);
-    filter: drop-shadow(2px 2px 3px);
+    filter: drop-shadow(2px 2px 3px rgb(124, 58, 1));
 }
 
 #index_recomended {
     grid-area: se2;
+    display: flex;
+    justify-content: center;
     margin: 0px 20px 0px 20px;
     padding: 10px;
     border-radius: 10px;
     min-height: 200px;
     background: rgb(230, 126, 34);
-    filter: drop-shadow(2px 2px 3px);
+    filter: drop-shadow(2px 2px 3px rgb(124, 58, 1));
 }
 
 #index_calender {
     grid-area: se3;
+    display: flex;
+    justify-content: center;
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
     min-height: 200px;
     background: rgb(230, 126, 34);
-    filter: drop-shadow(2px 2px 3px);
+    filter: drop-shadow(2px 2px 3px rgb(124, 58, 1));
 }
 
 #food_section {
@@ -128,7 +145,7 @@ main nav ol li {
     padding: 10px;
     border-radius: 10px 10px 10px 10px;
     background-color: rgb(230, 126, 34);
-    filter: drop-shadow(2px 2px 3px);
+    filter: drop-shadow(2px 2px 3px rgb(124, 58, 1));
 }
 
 .food_cards {
@@ -140,7 +157,7 @@ main nav ol li {
     "ca4 ca5 ca6";
     margin: 20px 0px 20px 20px;
     border-radius: 10px 10px 10px 10px;
-    background-color: rgb(220, 116, 24);
+    filter: drop-shadow(2px 2px 3px rgb(124, 58, 1));
 }
 
 .food_card {
@@ -181,7 +198,7 @@ main nav ol li {
     margin: 20px;
     border-radius: 10px;
     background-color: rgb(230, 126, 34);
-    filter: drop-shadow(2px 2px 3px);
+    filter: drop-shadow(2px 2px 3px rgb(124, 58, 1));
 }
 
 .resturant_card {
@@ -208,7 +225,7 @@ footer {
     padding: 10px;
     border-radius: 10px 10px 0px 0px;
     background-color: rgb(230, 126, 34);
-    filter: drop-shadow(2px 2px 3px);
+    filter: drop-shadow(2px 2px 3px rgb(124, 58, 1));
 }
 
 
